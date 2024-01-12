@@ -1,0 +1,91 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(/projects/op1/imgs/Path15.png);
+  background-repeat: no-repeat;
+}
+
+
+.box {
+  position: relative;
+  width: 28em;
+  /* width: 600px; */
+  background-color: rgba(26, 26, 26, 0.8);
+  height: 32em;
+  /* height: 157.27px; */
+  left: -10em;
+  top: 18em;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  line-height: 1.5;
+  color: #fff;
+  gap: 1.5em;
+  line-height: 1.5;
+}
+
+.text {
+  margin-top: 1.5em;
+  text-align: center;
+  width: 75%;
+}
+
+p {
+  text-align: justify;
+  font: normal normal normal 20px/29px Heebo;
+}
+
+form {
+  text-align: center;
+  width: 75%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 0.2em;
+}
+
+h1 {
+  font: normal normal 900 36px/53px Heebo;
+}
+
+label {
+  text-align: start;
+  font: normal normal bold 16px/24px Heebo;
+}
+
+input {
+  margin-top: 0.5em;
+  padding: 0.8em;
+}
+
+input[type*=submit] {
+  background-color: #D31C75;
+  border: none;
+  width: 35%;
+  margin-top: 0.8em;
+  color: #fff;
+  font: normal normal bold 22px/30px Heebo;
+
+  font-weight: 700;
+}
+
+@media (max-width:600px) {
+  body {
+    background-size: 100%;
+    /* height: %; */
+  }
+
+  .box {
+    width: 100%;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    margin: auto;
+  }
+}

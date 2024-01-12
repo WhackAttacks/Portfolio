@@ -1,0 +1,117 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+header {
+  background-image: url('img/path15.png');
+  background-repeat: no-repeat;
+  background-position: 0 -6em;
+  background-size: cover;
+  height: 80%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  color: #D3E10E;
+  line-height: 1.5;
+}
+
+h1 {
+  font-size: 5rem;
+  font: normal normal bold 86px/113px Assistant;
+}
+
+p {
+  font-size: 1.2rem;
+  color: #fff;
+  font: normal normal normal 20px/26px Assistant;
+}
+
+section {
+  height: 20%;
+  margin-top: -3em;
+}
+
+label {
+  font: normal normal bold 16px/21px Assistant;
+  display: block;
+  font-size: 1.1rem;
+  color: #011560;
+  font-weight: 600;
+  direction: rtl;
+}
+
+form {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  gap: 2em;
+
+}
+
+
+input {
+  padding: 0.5em;
+  padding-left: 8em;
+  border: none;
+  background-color: #F6F6F6;
+  border-bottom: 3px solid #D3E10E;
+}
+
+input[type*=submit] {
+  background-color: #D3E10E;
+  color: #011560;
+  text-align: center;
+  font-weight: 700;
+  padding: 0em 2em;
+  margin: 0;
+  font: normal normal bold 22px/30px Assistant;
+}
+
+@media(max-width:600px) {
+  header {
+    background-position: center -10em;
+    background-size: auto;
+    height: 70%;
+    text-align: center;
+  }
+
+  h1,
+  p {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  p {
+    margin-top: 1.5em;
+    font-size: 1.2rem;
+  }
+
+  form,
+  section,
+  .column {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    align-items: center;
+    margin: 0 auto;
+  }
+
+  input[type*=submit] {
+    width: 100%;
+    padding: 1em;
+    font-size: 1.2rem;
+  }
+}

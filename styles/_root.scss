@@ -1,0 +1,93 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+}
+
+html {
+  background-color: #ffffff;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+:root {
+  --main-color: rgb(70, 88, 252);
+}
+
+.bg {
+  background-color: #fff;
+  padding: 1em;
+}
+
+.black {
+  color: #000;
+}
+
+.bg-alt {
+  background-color: #666;
+  padding: 1em;
+}
+
+i {
+  color: var(--main-color);
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-rows {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn {
+  display: inline-block;
+  padding: 0.7rem 1.6rem;
+  font-size: 1.3rem;
+  font-weight: bolder;
+  color: var(--main-color);
+  border: 3px solid rgb(70, 88, 252);
+  cursor: pointer;
+  position: relative;
+  background-color: transparent;
+  text-decoration: none;
+  overflow: hidden;
+  z-index: 1;
+  font-family: inherit;
+}
+
+.btn::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(70, 88, 252);
+  transform: translateX(-100%);
+  transition: all .3s;
+  z-index: -1;
+}
+
+.btn:hover::before {
+  transform: translateX(0);
+}
+
+.btn:hover {
+  transition: all .35s;
+  color: #222;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}

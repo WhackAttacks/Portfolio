@@ -1,0 +1,152 @@
+@import "root";
+
+html {
+  background-color: #fff;
+}
+
+section {
+  width: 90%;
+  margin: auto;
+}
+
+.social {
+  gap: 1rem;
+  padding: 1.5em;
+  justify-content: center;
+}
+
+.heading>h1 {
+  font-size: 3em;
+}
+
+.heading>h1>span {
+  color: var(--main-color);
+}
+
+header {
+  width: 90%;
+  margin: auto;
+  margin-bottom: 5em;
+  margin-top: 5em;
+}
+
+
+.nav,
+.navbar {
+  position: sticky;
+  top: 0;
+  gap: 0.5em;
+  justify-content: center;
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
+  background-color: #fff;
+}
+
+.tech {
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+}
+
+#about {
+  margin-top: 2em;
+  margin-bottom: 2em;
+  justify-content: center;
+  align-items: center;
+  gap: 5em;
+}
+
+h2 {
+  font-size: 4rem;
+}
+
+.about-text>p {
+  font-size: 2rem;
+}
+
+.about-text {
+  gap: 5em;
+}
+
+.about-image img {
+  border-radius: 25rem;
+}
+
+#projects {
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+
+#projects>h2 {
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+#projects>ul li {
+  margin: 1.5em;
+  border: 1px solid #000;
+  background-color: #666;
+  border-radius: 2.5em;
+}
+
+.p-item {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  align-items: center;
+}
+
+.thumbnail {
+  margin-top: 0.2em;
+  border-radius: 2.5em 2.5em 0 0;
+  width: 98%;
+}
+
+.stack {
+  width: 50%;
+  justify-content: space-evenly;
+}
+
+.links {
+  margin-bottom: 0.8em;
+}
+
+.contact-img i {
+  display: block;
+}
+
+#contact>.flex-rows {
+  gap: 5em;
+}
+
+#contact {
+  width: 100%;
+  font-size: 1.5em;
+}
+
+#contact input {
+  width: 100%;
+  margin-bottom: 0.5em;
+  padding: 0.5em;
+  font-size: 1em;
+}
+
+#contact input[class*=nn],
+#contact textarea {
+  border-bottom: 5px solid var(--main-color);
+}
+
+#contact textarea {
+  margin-bottom: 1.2em;
+  font-size: 1.5rem;
+}
+
+#contact label {
+  margin: 0.2em;
+  font-weight: bolder;
+  color: #000;
+}
+
+#contact>div>.contact-img {
+  padding-left: 5em;
+}
