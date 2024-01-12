@@ -103,7 +103,20 @@ input[type=submit] {
   height: 2em;
 }
 
-footer {
+.border {
+  width: 45%;
   background-color: #FDBD03;
-  width: 5vw;
+  height: 1svh;
+  position: absolute;
+  bottom: 0;
+  margin: 0;
+}
+
+.socials {
+  display: flex;
+  margin-top: -2em;
+}
+
+.socials div i {
+  align-self: center;
 }
