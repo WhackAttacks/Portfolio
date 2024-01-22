@@ -103,20 +103,62 @@ input[type=submit] {
   height: 2em;
 }
 
+.border-bottom {
+  display: flex;
+  flex-direction: column;
+}
+
 .border {
   width: 45%;
   background-color: #FDBD03;
   height: 1svh;
   position: absolute;
   bottom: 0;
-  margin: 0;
 }
 
 .socials {
   display: flex;
-  margin-top: -2em;
+  margin-top: -4em;
 }
 
 .socials div i {
   align-self: center;
+}
+
+@media(max-width:600px) {
+
+  img[alt="WhatsApp"],
+  .bg-yellow {
+    display: none;
+  }
+
+  main {
+    display: flex;
+    flex-direction: column-reverse
+  }
+
+  .text,
+  .formCtrl,
+  form,
+  .row,
+  h1 {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .head {
+    display: none;
+  }
+
+  .phone {
+    margin: auto;
+    align-items: center;
+    width: 50%;
+  }
+
+  .phone>img {
+    height: 16em;
+    align-self: center
+  }
+
 }
