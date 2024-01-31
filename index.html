@@ -2,203 +2,94 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Kobi S</title>
-  <link rel="stylesheet" href="/styles/main.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+    integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous" />
   <script src="https://kit.fontawesome.com/b581a316e8.js" crossorigin="anonymous"></script>
-  <script src="/scripts/main.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet" />
+  <link rel="stylesheet" href="styles/main.css" />
+  <title>Kobi Satamker | WebDev</title>
 </head>
 
 <body>
-  <nav class="navbar">
-    <ul class="flex-rows nav">
-      <li><a href="#projects" class="btn">Projects</a></li>
-      <li><a href="#about" class="btn">About</a></li>
-      <li><a href="#contact" class="btn">Contact</a></li>
+  <nav id="main-nav" class="sticky">
+    <img src="imgs/logo.png" alt="My Portfolio" id="logo" />
+    <ul>
+      <li><a href="index.html" class="current">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="work.html">Work</a></li>
+      <li><a href="contact.html">Contact</a></li>
     </ul>
   </nav>
-  <div class="bg container">
-    <header id="hero flex-column">
-      <ul class="flex-rows social">
-        <li><a class="" href="#"><i class="fa-brands fa-instagram fa-2xl"></i></a></li>
-        <li><a href="#"><i class="fa-brands fa-facebook fa-2xl"></i></a></li>
-        <li><a href="#"><i class="fa-brands fa-linkedin fa-2xl"></i></a></li>
-        <li><a href="#"><i class="fa-brands fa-github fa-2xl"></i></a></li>
-        <li><a href="#"><i class="fa-solid fa-file fa-2xl"></i></a></li>
-
-      </ul>
-      <div class="heading">
-        <h1>Hi, I'm <span>Kobi.</span><br> I'm a front-end developer.</h1>
+  <header id="header-home">
+    <div class="container">
+      <div class="header-content">
+        <h1>
+          I'm Kobi and I'm a Front-end developer
+        </h1>
+        <a href="work.html" class="btn-light">View My Work</a>
       </div>
-      <div>
-        <ul class="flex-rows tech">
-          <li><img src="/imgs/img-HTML.png" alt=""></li>
-          <li><img src="/imgs/img-CSS.png" alt=""></li>
-          <li><img src="/imgs/img-SASS.png" alt=""></li>
-          <li><img src="/imgs/img-Bootstrap.png" alt=""></li>
-        </ul>
-      </div>
-    </header>
-  </div>
-  <main>
-    <div class="bg-alt container">
-      <section id="about" class="flex-rows">
-        <div class="about-image">
-          <img width="400"
-            src="https://ociacc.com/wp-content/uploads/2019/03/blank-profile-picture-973460_1280-1030x1030.png" alt="">
-        </div>
-        <div class="about-text flex-column">
-          <h2>About</h2>
-          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Explicabo provident, similique neque, mollitia ut
-            sit
-            possimus accusantium eius placeat id architecto repellendus error reprehenderit assumenda totam amet? Quae,
-            impedit repellendus unde similique tempore non ad obcaecati expedita rerum harum dolor maxime a praesentium
-            mollitia eos earum nostrum veritatis id necessitatibus!</p>
-        </div>
-      </section>
     </div>
+  </header>
 
-    <div class="bg container">
-      <section id="projects">
-        <h2>Projects</h2>
-        <ul class="flex-rows">
-          <li class="p-item">
-            <img src="imgs/kelly-sikkema-vtKc7BpJ-vU-unsplash.jpg" width="400" class="thumbnail">
-            <div class="desc">
-              <h3>Lorem ipsum dolor sit.</h3>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, maxime!</p>
-            </div>
-            <div class="stack flex-rows">
-              <img src="/imgs/img-HTML.png" height="26" width="27" alt="">
-              <img src="/imgs/img-HTML.png" height="26" width="27" alt="">
-              <img src="/imgs/img-HTML.png" height="26" width="27" alt="">
-              <img src="/imgs/img-HTML.png" height="26" width="27" alt="">
-            </div>
-            <div class="links">
-              <a class="btn" href="#">Project Link</a>
-            </div>
-          </li>
-          <li class="p-item">
-            <img src="imgs/kelly-sikkema-vtKc7BpJ-vU-unsplash.jpg" width="400" class="thumbnail">
-            <div class="desc">
-              <h3>Lorem ipsum dolor sit.</h3>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, maxime!</p>
-            </div>
-            <div class="stack flex-rows">
-              <img src="/imgs/img-HTML.png" height="26" width="27" alt="">
-              <img src="/imgs/img-HTML.png" height="26" width="27" alt="">
-              <img src="/imgs/img-HTML.png" height="26" width="27" alt="">
-              <img src="/imgs/img-HTML.png" height="26" width="27" alt="">
-            </div>
-            <div class="links">
-              <a href="#">Project Link</a>
-            </div>
-          </li>
-          <li class="p-item">
-            <img src="imgs/kelly-sikkema-vtKc7BpJ-vU-unsplash.jpg" width="400" class="thumbnail">
-            <div class="desc">
-              <h3>Lorem ipsum dolor sit.</h3>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, maxime!</p>
-            </div>
-            <div class="stack flex-rows">
-              <img src="/imgs/img-HTML.png" height="26" width="27" alt="">
-              <img src="/imgs/img-HTML.png" height="26" width="27" alt="">
-              <img src="/imgs/img-HTML.png" height="26" width="27" alt="">
-              <img src="/imgs/img-HTML.png" height="26" width="27" alt="">
-            </div>
-            <div class="links">
-              <a href="#">Project Link</a>
-            </div>
-          </li>
-
-
-        </ul>
-        <ul class="flex-rows">
-          <li class="p-item">
-            <img src="imgs/kelly-sikkema-vtKc7BpJ-vU-unsplash.jpg" width="400" class="thumbnail">
-            <div class="desc">
-              <h3>Lorem ipsum dolor sit.</h3>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, maxime!</p>
-            </div>
-            <div class="stack flex-rows">
-              <img src="/imgs/img-HTML.png" height="26" width="27" alt="">
-              <img src="/imgs/img-HTML.png" height="26" width="27" alt="">
-              <img src="/imgs/img-HTML.png" height="26" width="27" alt="">
-              <img src="/imgs/img-HTML.png" height="26" width="27" alt="">
-            </div>
-            <div class="links">
-              <a href="#">Project Link</a>
-            </div>
-          </li>
-          <li class="p-item">
-            <img src="imgs/kelly-sikkema-vtKc7BpJ-vU-unsplash.jpg" width="400" class="thumbnail">
-            <div class="desc">
-              <h3>Lorem ipsum dolor sit.</h3>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, maxime!</p>
-            </div>
-            <div class="stack flex-rows">
-              <img src="/imgs/img-HTML.png" height="26" width="27" alt="">
-              <img src="/imgs/img-HTML.png" height="26" width="27" alt="">
-              <img src="/imgs/img-HTML.png" height="26" width="27" alt="">
-              <img src="/imgs/img-HTML.png" height="26" width="27" alt="">
-            </div>
-            <div class="links">
-              <a href="#">Project Link</a>
-            </div>
-          </li>
-          <li class="p-item">
-            <img src="imgs/kelly-sikkema-vtKc7BpJ-vU-unsplash.jpg" width="400" class="thumbnail">
-            <div class="desc">
-              <h3>Lorem ipsum dolor sit.</h3>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, maxime!</p>
-            </div>
-            <div class="stack flex-rows">
-              <img src="/imgs/img-HTML.png" height="26" width="27" alt="">
-              <img src="/imgs/img-HTML.png" height="26" width="27" alt="">
-              <img src="/imgs/img-HTML.png" height="26" width="27" alt="">
-              <img src="/imgs/img-HTML.png" height="26" width="27" alt="">
-            </div>
-            <div class="links">
-              <a href="#">Project Link</a>
-            </div>
-          </li>
-        </ul>
-      </section>
-    </div>
-    <section id="contact" class="bg-alt container">
-      <h2>CONTACT</h2>
-      <div class="flex-rows formtoimg">
-        <form action="POST">
-          <div class="flex-column">
-            <div class="flex-column">
-              <h3>Get in touch</h3>
-            </div>
-            <div class="flex-column">
-              <label for="name">Full Name:</label>
-              <input class="nn" type="text" name="name" id="name">
-            </div>
-            <div class="flex-column">
-              <label for="email">Email:</label>
-              <input class="nn" type="email" name="email" id="email">
-            </div>
-            <div class="flex-column">
-              <label for="phone">Number:</label>
-              <input class="nn" type="number" name="phone" id="phone">
-            </div>
-            <label for="message">Message:</label>
-            <textarea name="message" id="message" cols="30" rows="4"></textarea>
-            <input class="btn" type="submit" value="Send">
-          </div>
-        </form>
-        <div class="contact-img">
-          <img src="/imgs/pexels-eva-bronzini-7958169.jpg" width="500em" height="500em" alt="">
+  <section id="about-a" class="text-center py-3">
+    <div class="container">
+      <h2 class="section-title">About Me</h2>
+      <div class="bottom-line"></div>
+      <p class="lead">
+        Let me tell you a little about myself and what I do...
+      </p>
+      <div class="about-info">
+        <img src="img/about.jpg" alt="" class="bio-image" />
+        <div class="bio bg-light">
+          <h4>Your Project Is In Safe Hands</h4>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+            Perspiciatis nostrum, eaque velit ipsam facilis sed, quisquam
+            nesciunt unde nihil voluptatum commodi consequuntur molestiae?
+            Fugiat, perspiciatis reprehenderit. Architecto delectus vitae
+            deserunt!
+          </p>
         </div>
       </div>
-    </section>
-  </main>
-  <footer class="bg-alt">
-    <p>Copyright n things</p>
+    </div>
+  </section>
+
+  <section id="home-a" class="text-center py-2">
+    <div class="container">
+      <h2 class="section-title">I Specialize In</h2>
+      <div class="bottom-line"></div>
+      <div class="specials">
+        <div>
+          <i class="fas fa-brands fa-bootstrap fa-2x"></i>
+        </div>
+        <div>
+          <i class="fas fa-brands fa-html5 fa-2x"></i>
+        </div>
+        <div>
+          <i class="fas fa-brands fa-css3-alt fa-2x"></i>
+        </div>
+        <div>
+          <i class="fas fa-brands fa-sass fa-2x"></i>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Footer -->
+  <footer id="main-footer">
+    <div class="footer-content container">
+      <p>Copyright &copy; 2024. All Rights Reserved</p>
+      <div class="social">
+        <i class="fab fa-twitter"></i>
+        <i class="fab fa-facebook"></i>
+        <i class="fab fa-instagram"></i>
+        <i class="fab fa-linkedin"></i>
+      </div>
+    </div>
   </footer>
 </body>
 
