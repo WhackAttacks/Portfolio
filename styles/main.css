@@ -96,6 +96,10 @@ input[class^=btn-]:hover {
   margin: 0 auto 1rem auto;
 }
 
+h2 {
+  text-align: center;
+}
+
 #container-gallery {
   margin: auto;
   display: flex;
@@ -103,6 +107,34 @@ input[class^=btn-]:hover {
   justify-content: center;
   align-items: center;
   width: 60vw;
+}
+
+.card {
+  box-shadow: 3px 3px 16px black;
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+  height: 300px;
+  border-radius: 15px;
+  margin: 2em;
+  background-color: #b6b6b6;
+}
+
+.card-text {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 1em;
+}
+
+.card-btns {
+  justify-content: space-evenly;
+  width: 100%;
+  text-align: center;
+}
+
+.galleryImg {
+  border-radius: 15px 15px 0 0;
+  height: 100%;
 }
 
 * {
