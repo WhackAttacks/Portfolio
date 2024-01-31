@@ -38,11 +38,7 @@
 
   // Stack Grid Columns
   #home-a .specials,
-  #home-b .stats,
-  #home-c .process,
-  #about-d .testimonials,
-  #contact-b .contact-info,
-  .items {
+  #contact-b .contact-info {
     grid-template-columns: 1fr;
   }
 
@@ -60,14 +56,8 @@
       }
     }
 
-    &-b {
-      .stats div {
-        padding: 2rem 0 1rem 0;
-      }
-    }
   }
 
-  // About
   #about {
     &-a {
       .about-info {
@@ -79,13 +69,8 @@
           'aw3';
       }
     }
-
-    &-c {
-      display: none;
-    }
   }
 
-  // Contact
   #contact {
     &-a {
       .text-fields {
@@ -119,7 +104,6 @@
     }
   }
 
-  // Footer
   #main-footer {
     height: 7rem;
 
@@ -131,7 +115,6 @@
   }
 }
 
-// Landscape
 @media (max-height: 580px) {
   #header-home {
     .header-content {

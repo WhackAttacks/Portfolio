@@ -5,32 +5,68 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Project1 Presentation</title>
-    <link rel="stylesheet" href="../../styles/style.css">
-    <link rel="stylesheet" href="../../styles/presentation.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous" />
+    <script src="https://kit.fontawesome.com/b581a316e8.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet" />
+    <link rel="stylesheet" href="/styles/main.css">
+    <link rel="stylesheet" href="/styles/presentation.css">
 </head>
 
 <body>
-    <header id="header">
-        <div id="container-header">
-            <h1>Yoni's Portfolio</h1>
+    <nav id="main-nav" class="sticky">
+        <img src="../../imgs/logo.png" alt="My Portfolio" id="logo" />
+        <ul>
+            <li><a href="../../index.html" class="current">Home</a></li>
+            <li><a href="../../index.html">About</a></li>
+            <li><a href="../../index.html">Work</a></li>
+            <li><a href="../../index.html">Contact</a></li>
+        </ul>
+    </nav>
+
+
+    <header id="header-home">
+        <div class="container">
+            <h1>Project Name</h1>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellendus explicabo adipisci eum odio impedit
+                est facilis provident aperiam quia culpa. Assumenda explicabo consequuntur totam voluptas corporis ea
+                sint et dolore?</p>
+            <div id="container-btns">
+                <a href="./index.html" class="btn-dark">Website</a>
+                <a href="./op1.zip" class="btn-dark">Download</a>
+            </div>
         </div>
     </header>
+    <div class="specials">
+        <div>
+            <i class="fas fa-brands fa-bootstrap fa-2x"></i>
+        </div>
+        <div>
+            <i class="fas fa-brands fa-html5 fa-2x"></i>
+        </div>
+        <div>
+            <i class="fas fa-brands fa-css3-alt fa-2x"></i>
+        </div>
+        <div>
+            <i class="fas fa-brands fa-sass fa-2x"></i>
+        </div>
+    </div>
 
     <main>
-        <section id="top">
-            <h1>Project 1</h1>
-
-            <div id="container-btns">
-                <a class="btn">לצפייה</a>
-                <a class="btn">להורדה</a>
-            </div>
-        </section>
+        <h1>Project 1</h1>
+        <div class="pres-img">
+            <img src="../../imgs/gallery/op1.png" alt="op1 image">
+        </div>
     </main>
 
-    <footer>
-        <div id="container-footer">
-            <p>כל הזכויות שמורות</p>
-            <p>יהונתן מורביה</p>
+    <footer id="main-footer">
+        <div class="footer-content container">
+            <p>Copyright &copy; 2024. All Rights Reserved</p>
+            <div class="social">
+                <a href="https://www.facebook.com/kobista"><i class="fab fa-facebook"></i></a>
+                <a href=""><i class="fab fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/kobi-satamker-006158100/"><i class="fab fa-linkedin"></i></a>
+            </div>
         </div>
     </footer>
 </body>

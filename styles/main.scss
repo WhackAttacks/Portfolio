@@ -128,7 +128,6 @@ img {
   }
 }
 
-// About Sections
 #about {
 
   // About A
@@ -152,28 +151,10 @@ img {
       padding: 0.8rem;
     }
 
-    .award-1 {
-      grid-area: aw1;
-    }
 
-    .award-2 {
-      grid-area: aw2;
-    }
-
-    .award-3 {
-      grid-area: aw3;
-    }
-
-    .award-1 .fas,
-    .award-2 .fas,
-    .award-3 .fas {
-      color: $main-color;
-      margin: 1rem;
-    }
   }
 }
 
-// Contact Page
 #contact {
   &-a {
     .text-fields {
@@ -216,24 +197,8 @@ img {
       width: 50%;
     }
   }
-
-  &-b {
-    .contact-info {
-      display: grid;
-      grid-template-columns: repeat(3, 1fr);
-      text-align: center;
-    }
-  }
-
-  &-c {
-    h1 {
-      text-align: center;
-      font-size: 4rem;
-    }
-  }
 }
 
-// Footer
 #main-footer {
   background: $dark-color;
   color: #fff;
@@ -262,5 +227,4 @@ img {
   }
 }
 
-// Import Media Queries
 @import 'media';
