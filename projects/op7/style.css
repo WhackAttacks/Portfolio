@@ -80,3 +80,89 @@
     font: normal normal normal 15px/22px Heebo;
     text-align: center;
 }
+
+section {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+    height: 55svh;
+    margin-top: 2em;
+}
+
+.coupon {
+    background-color: #F0FFFF;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.coupon h2 {
+    font: normal normal 900 46px/67px Heebo;
+}
+
+.coupon p {
+    font: normal normal normal 15px/22px Heebo;
+}
+
+.coupon label {
+    font: normal normal bold 13px/19px Heebo;
+    direction: rtl;
+    align-self: flex-end;
+}
+
+.coupon form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 35%;
+    margin: auto;
+    margin-top: 1.5em;
+}
+
+.map {
+    background-color: #0EE1E1;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.coupon input,
+textarea {
+    width: 100%;
+    background-color: #E5EEFF;
+    border: none;
+    border-bottom: #0EE1E1 0.2em solid;
+}
+
+.coupon input {
+    padding: 1em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.coupon form input[type=button] {
+    font: normal normal bold 20px/28px Heebo;
+    background-color: var(--main-color);
+    padding: 0.2em;
+}
+
+footer {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 15svh;
+    border-bottom: var(--main-color) 1em solid;
+}
+
+footer div {
+    background-color: #0EE1E1;
+    border-radius: 100%;
+    width: 4em;
+    height: 4em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
