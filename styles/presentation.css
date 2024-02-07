@@ -9,7 +9,7 @@
 }
 
 #header-home {
-    height: 25svh;
+    height: fit-content;
     text-align: center;
 }
 
@@ -25,10 +25,18 @@
     background-color: beige;
 }
 
-main {
+section {
     text-align: center;
+    display: flex;
+    flex-direction: column;
 }
 
-main img {
-    width: 55rem;
+.pres-img {
+    width: fit-content;
+}
+
+@media (max-width:768) {
+    main img {
+        width: 20px;
+    }
 }
