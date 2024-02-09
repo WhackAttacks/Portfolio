@@ -250,6 +250,7 @@ img {
 }
 #about-a .bio-image {
   grid-area: bioimage;
+  filter: grayscale(1);
 }
 #about-a .bio {
   grid-area: bio;
