@@ -132,7 +132,6 @@ img {
 
 #about {
 
-  // About A
   &-a {
     .about-info {
       display: grid;
@@ -142,7 +141,6 @@ img {
       grid-gap: 1.2rem;
     }
 
-    // Grid Area
     .bio-image {
       grid-area: bioimage;
     }
@@ -151,6 +149,7 @@ img {
       grid-area: bio;
       border-left: 3px solid $main-color;
       padding: 0.8rem;
+      font-size: 1.5rem;
     }
 
 
