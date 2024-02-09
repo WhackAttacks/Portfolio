@@ -159,6 +159,7 @@ body {
   font-family: "Dosis", sans-serif;
   line-height: 1.6;
   background: #fff;
+  background-color: gray;
 }
 
 a {
@@ -193,6 +194,7 @@ img {
   padding-top: 1rem;
   background-color: #E6E6DD;
   width: 100%;
+  z-index: 2;
 }
 
 #main-nav ul {
@@ -277,6 +279,7 @@ img {
   grid-area: bio;
   border-left: 3px solid #ffbc00;
   padding: 0.8rem;
+  font-size: 1.5rem;
 }
 
 #contact-a .text-fields {
@@ -326,10 +329,6 @@ img {
   justify-content: space-between;
   height: 5rem;
   align-items: center;
-}
-
-#main-footer a {
-  color: inherit;
 }
 
 #main-footer .footer-content .social .fab {
