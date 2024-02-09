@@ -11,6 +11,7 @@ body {
   font-family: 'Dosis', sans-serif;
   line-height: 1.6;
   background: #fff;
+  background-color: gray;
 }
 
 a {
@@ -47,6 +48,7 @@ img {
   padding-top: 1rem;
   background-color: #E6E6DD;
   width: 100%;
+  z-index: 2;
 
   ul {
     display: flex;
