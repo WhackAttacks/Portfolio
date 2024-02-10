@@ -70,7 +70,8 @@ img {
       border-color: $medium-color;
     }
 
-    &.current {
+    &.current,
+    .active {
       border-color: $main-color;
     }
   }
