@@ -200,7 +200,8 @@ img {
 #main-nav a:hover {
   border-color: #ccc;
 }
-#main-nav a.current {
+#main-nav a.current,
+#main-nav a .active {
   border-color: #ffbc00;
 }
 
